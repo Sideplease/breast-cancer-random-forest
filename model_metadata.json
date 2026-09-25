@@ -1,0 +1,21 @@
+{
+  "target_mapping": {"B": 0, "M": 1},
+  "threshold": 0.2,
+  "random_state": 42,
+  "split_ratio": "70/15/15",
+  "best_parameters": {
+    "n_estimators": 800,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 4,
+    "max_features": "sqrt",
+    "class_weight": null
+  },
+  "test_metrics": {
+    "accuracy": 0.9651162790697675,
+    "precision": 0.9142857142857143,
+    "recall_malignant": 1.0,
+    "f1": 0.9552238805970149,
+    "roc_auc": 0.9988425925925927
+  }
+}
